@@ -1,0 +1,9 @@
+Package: com.pookjw.everytimetweakccmodule
+Name: EverytimeTweakCCModule
+Version: 1.5
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: pookjw
+Author: pookjw
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, com.opa334.ccsupport, com.pookjw.everytimetweak
