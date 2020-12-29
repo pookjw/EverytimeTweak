@@ -9,7 +9,7 @@
 
     self.model = [Model sharedInstance];
 
-    self.tableView = [[UITableView alloc] init];
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStyleGrouped];
     self.tableView.backgroundColor = [UIColor clearColor];
     [self.tableView setSeparatorColor:[[UIColor whiteColor] colorWithAlphaComponent:0.25]];
     [self.view addSubview:self.tableView];
@@ -29,7 +29,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
-    cell.backgroundColor = [UIColor clearColor];
+    cell.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.15];
     cell.textLabel.textColor = [UIColor whiteColor];
 
     UISwitch *switchView;

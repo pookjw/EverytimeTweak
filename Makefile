@@ -1,7 +1,7 @@
 TARGET := iphone:clang
 INSTALL_TARGET_PROCESSES = everytime SpringBoard
 export ARCHS=arm64 arm64e
-PACKAGE_VERSION=1.0
+PACKAGE_VERSION=1.1
 
 include $(THEOS)/makefiles/common.mk
 
